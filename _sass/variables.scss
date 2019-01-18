@@ -1,0 +1,44 @@
+
+$greylighter: #f9f9f9; /* greylight */
+$greylight: #eaeaea; /* grey */
+
+$grey: #dce0e0; /* dark gray */
+$greydark: #464646;
+$graydarker: #242424;
+
+$green: #009D4e; /* green  - official */
+$orange: #f48109; /* orange - official */
+$blue: #085D8F;
+//$blue: #33658A;
+$yellow: #F2D91A;
+$red: #ED3700;
+
+$brand-primary: $green;
+$brand-secondary: $orange;
+
+
+$success: $green;
+$info: lighten( $blue, 15% );
+$warning: $yellow;
+$danger: $red;
+
+
+$btn-background: $orange;
+$btn-background-hover: darken( $btn-background, 15%);
+
+
+
+$gold: #C9AE5D;
+$silver: #c0c0c0;
+$bronze: #CD7F32;
+
+$wrap-padding: 2rem;
+
+$width-single-768: 800px;
+
+.blue {
+    background: $blue;
+}
+.green {
+    background: $green;
+}

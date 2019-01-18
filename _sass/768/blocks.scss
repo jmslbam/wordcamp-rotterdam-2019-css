@@ -1,0 +1,23 @@
+.row-tickets {
+  .container-inner {
+    padding-right: 330px; // tickets image
+    position: relative;
+  }
+
+  img.tickets {
+    position: absolute;
+    right: 2rem;
+    top: -70px;
+    transform: rotate(7deg);
+  }
+
+}
+
+.page .row-tickets,
+.single .row-tickets {
+
+  .container-inner {
+    padding-left: $wrap-padding;
+    max-width: $width-single-768;
+  }
+}

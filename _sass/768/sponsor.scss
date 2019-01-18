@@ -1,0 +1,50 @@
+.wcorg-sponsor img {
+  max-height: 100px;
+}
+.wcorg-sponsors {
+  //display: flex;
+  //flex-direction: row;
+  //flex-wrap: wrap;
+  //justify-content: space-between;
+  //align-items: stretch;
+
+  .wcorg-sponsor-level-gold,
+  .wcorg-sponsor-level-silver,
+  .wcorg-sponsor-level-bronze,
+  .wcorg-sponsor-level-supporter {
+    //display: block;
+    //flex-basis: 46%;
+  }
+
+  //.wcorg-sponsor {
+  //  flex: 1;
+  //}
+
+  .wcorg-sponsor-level-silver .wcorg-sponsor {
+    //flex-basis: 33%;
+    //width: 33%;
+    img {
+      //max-height: 80px;
+    }
+  }
+
+}
+
+// HOME
+.home .wcorg-sponsors {
+  //flex-wrap: nowrap;
+
+  .wcorg-sponsor-level-gold,
+  .wcorg-sponsor-level-silver,
+  .wcorg-sponsor-level-bronze,
+  .wcorg-sponsor-level-supporter {
+    //display: block;
+    //flex-basis: 28%;
+  }
+
+  // hide supporters level because of agreement in sponsor level
+  // overwrite the display block from above
+  .wcorg-sponsor-level-supporter {
+    display: none;
+  }
+}

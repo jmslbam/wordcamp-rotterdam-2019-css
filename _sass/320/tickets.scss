@@ -1,0 +1,115 @@
+
+/* Overwrite CampTix styling */
+
+// Form validation notices
+// Wrap in div to overwrite the CSS specificity
+div {
+  .tix-error, .tix-notice, .tix-info {
+    margin-bottom: .5em;
+  }
+
+  .tix-info {
+    background: #b6e0cb;
+    border: solid 1px $success;
+  }
+}
+
+
+// Form styling
+
+// Regular inputs etc
+.tix-ticket-form input[type="text"], .tix-ticket-form input[type="email"], .tix-ticket-form input[type="url"], .tix-ticket-form textarea, .tix-private-form input[type="text"], .tix-private-form input[type="email"], .tix-private-form input[type="url"], .tix-private-form textarea, .tix-attendee-form input[type="text"], .tix-attendee-form input[type="email"], .tix-attendee-form input[type="url"], .tix-attendee-form textarea, .tix-receipt-form input[type="text"], .tix-receipt-form input[type="email"], .tix-receipt-form input[type="url"], .tix-receipt-form textarea {
+  width: 100% !important; //sorry... CampTix is loaded later then our file
+}
+
+.tix-js form #tix-coupon-container #tix-coupon-input {
+  width: 40%;
+  float: right;
+}
+
+.tix-js form #tix-coupon-container input[type="submit"] {
+  float: right;
+  clear: both;
+  margin-top: 5px;
+}
+
+
+.tix-js .tix-column-quantity select {
+  padding-left: 5px;
+  min-width: 48px;
+  height: 2.3em;
+}
+
+.tix-js .tix-ticket-excerpt {
+  font-size: 15px;
+  line-height: 1.4;
+  display: block;
+}
+
+.tix-js th.tix-column-description {
+  //text-indent: -3000px;
+  //overflow: hidden;
+}
+
+.tix-js .tix-column-price {
+  font-weight: bold;
+}
+
+.tix-js td.tix-column-remaining {
+  text-align: center;
+  color: $brand-secondary;
+}
+
+
+// Attendees List
+div#tix-attendees ul li,
+div#tix-attendees ul.tix-columns-2 li,
+div#tix-attendees ul.tix-columns-3 li {
+  width: auto;
+}
+
+
+#tix-attendees ul {
+  margin-left: 12%;
+  padding-left: 0;
+
+  li {
+    width: auto;
+    height: auto;
+    min-height: 100px;
+    display: block;
+    //display: flex;
+    float: none;
+    margin-right: 0;
+    margin-bottom: 2em;
+    width: 100%;
+    vertical-align: top;
+
+  }
+
+}
+
+div#tix-attendees .avatar {
+  background: $greylighter;
+  width: 94px;
+  height: 94px;
+  background-size: cover;
+}
+
+
+#tix-attendees .tix-attendee-list li .tix-field {
+  margin-left: 0;
+  padding-left: 110px;
+}
+
+#tix-attendees .tix-attendee-list li a {
+  text-decoration: none;
+}
+
+#tix-attendees .tix-attendee-list li a:hover {
+  text-decoration: underline;
+}
+
+.tix-attendee-name {
+  font-weight: bold;
+}

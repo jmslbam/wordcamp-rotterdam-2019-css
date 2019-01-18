@@ -1,0 +1,10 @@
+@mixin separator {
+  display: block;
+  content: "";
+  border-bottom: 1px solid $grey;
+  height: 1px;
+  line-height: 1px;
+  font-size: 1px;
+  width: 50%;
+  margin: 0 auto;
+}

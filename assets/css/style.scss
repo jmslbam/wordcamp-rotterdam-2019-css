@@ -1,0 +1,88 @@
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
+---
+
+/*!
+Theme Name: Twenty Seventeen - WordCamp Rotterdam 2019
+Theme URI: https://wordpress.org/themes/twentyseventeen/
+Author: the WordPress team
+Author URI: https://wordpress.org/
+Description: Twenty Seventeen brings your site to life with header video and immersive featured images. With a focus on business sites, it features multiple sections on the front page as well as widgets, navigation and social menus, a logo, and more. Personalize its asymmetrical grid with a custom color scheme and showcase your multimedia content with post formats. Our default theme for 2017 works great in many languages, for any abilities, and on any device.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: twentyseventeen
+Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+*/
+
+
+@import "variables";
+@import "320/mixins";
+@import "320/main";
+@import "320/common";
+@import "320/layout";
+@import "320/typography";
+@import "320/forms";
+@import "320/buttons";
+@import "320/header";
+@import "320/primary-navigation";
+@import "320/links";
+@import "320/front-page";
+@import "320/entry";
+@import "320/pages";
+@import "320/pagination";
+@import "320/comments";
+
+@import "320/schedule";
+@import "320/organizers-and-speakers";
+@import "320/tickets";
+@import "320/sponsor";
+
+@import "320/search";
+@import "320/widgets";
+@import "320/media";
+@import "320/footer";
+
+@import "320/social-sharing";
+@import "320/blocks";
+
+//@import "320/backup";
+
+
+@media (min-width: 480px) {
+	@import "480/main";
+	@import "480/organizers-and-speakers";
+}
+
+@media screen and (max-width: 767px) {
+	@import "768max/main";
+}
+
+@media (min-width: 768px) {
+	@import "768/layout";
+
+	@import "768/header";
+	@import "768/typography";
+	@import "768/main";
+	@import "768/primary-navigation";
+	@import "768/blocks";
+
+	@import "768/front-page"; //overwrites layout
+	@import "768/sponsor";
+	@import "768/tickets";
+
+	@import "768/footer";
+}
+
+@media (min-width: 992px) {
+	@import "992/layout";
+}
+
+@media (min-width: 1200px) {
+	@import "1200/layout";
+}

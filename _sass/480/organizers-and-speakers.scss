@@ -1,0 +1,33 @@
+
+/*organizatorzy*/
+.wcorg-speakers .wcorg-speaker,
+.wcorg-organizers .wcorg-organizer {
+
+  .wcorg-speaker-description,
+  .wcorg-organizer-description {
+    padding-left: 120px;
+  }
+  .avatar {
+    width: 96px;
+    height: 96px;
+    position: absolute;
+    left: 0;
+  }
+
+  //&:nth-child(even) {
+  //  .wcorg-speaker-description,
+  //  .wcorg-organizer-description {
+  //    padding-left: 0;
+  //    padding-right: 120px;
+  //  }
+  //
+  //  .avatar {
+  //    left: auto;
+  //    right: 0;
+  //  }
+  //
+  //}
+}
+
+
+

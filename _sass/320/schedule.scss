@@ -1,0 +1,91 @@
+/*.page-slug-program .site-content .wrap {*/
+/*max-width: 1170px;*/
+/*}*/
+
+
+.wcpt-schedule {
+  //font-size: 14px;
+}
+
+.wcpt-schedule .wcpt-col-time {
+  width: 4%;
+  border-bottom: 0;
+}
+
+.wcpt-schedule .wcpt-col-track {
+  width: 32%;
+  border-bottom-width: 0;
+}
+
+.wcpt-schedule .wcpt-time {
+  font-weight: bold;
+}
+
+.wcpt-schedule tr.global-session {
+  background-color: #f3f3f3;
+  border-right: 2px solid #d9d9d9;
+}
+
+.wcpt-schedule td {
+  padding: .7em;
+  vertical-align: top;
+}
+
+.wcpt-schedule th {
+  padding: .7em;
+}
+
+.wcpt-schedule .wcpt-session-speakers {
+  clear: both;
+  display: block;
+}
+
+.wcpt-schedule .wcpt-session-speakers a {
+  font-style: italic;
+  color: #c02942;
+  font-size: 13px;
+}
+
+.wcpt-schedule .wcpt-session-type-custom {
+  font-weight: bold;
+  text-align: center;
+  height: 50px;
+}
+
+.wcpt-schedule .wcpt-col-track {
+  background: #c0c0c0;
+  text-align: center;
+}
+
+.wcpt-schedule .wcpt-col-track:nth-child(even) {
+  background: #d4d4d4;
+}
+
+
+.wcb-track-dla-programistow:before {
+  display: none;
+}
+
+//
+//@media screen and (max-width: 700px) {
+//  .wcpt-schedule .wcpt-session-type-session:before {
+//    border: none;
+//    padding: 3px 10px;
+//    font-size: 12px;
+//  }
+//
+//  .wcpt-schedule tbody tr {
+//    border: none;
+//  }
+//
+//  .wcpt-schedule tbody tr td {
+//    border-bottom: 1px solid #eee;
+//  }
+//
+//  .wcpt-schedule tbody tr td.wcpt-time {
+//    background: #f4f4f4;
+//    clear: both;
+//    padding: .7em;
+//    width: 100%;
+//  }
+//}

@@ -1,0 +1,38 @@
+// TICKETS ROW
+.row-tickets {
+
+  padding-top: 1.8rem;
+  padding-bottom: 2rem;
+  background: $greylighter;
+  font-size: 1.5em;
+
+  .container-inner {
+    margin: 0 auto;
+  }
+
+  h2 {
+    margin: 0;
+    padding: 0;
+  }
+
+  hr {
+    max-width: 30%;
+    margin: .5rem auto;
+  }
+
+  img {
+    transform: rotate(7deg);
+  }
+
+  img:hover {
+    filter: brightness(90%);
+  }
+
+}
+
+.page .row-tickets,
+.single .row-tickets {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+

@@ -1,0 +1,36 @@
+// Overview of spreakers and organizers
+.wcorg-speakers .wcorg-speaker,
+.wcorg-organizers .wcorg-organizer {
+  padding-bottom: 2em;
+
+
+  .avatar {
+    float: left;
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+    width: 96px;
+    height: 96px;
+  }
+}
+
+.wcorg-speaker-description,
+.wcorg-organizer-description {
+  position: relative;
+  padding-bottom: 30px;
+  min-height: 140px;
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+
+
+// Single detail speaker
+.speaker-avatar {
+  float: left;
+  margin: 0.5em 1em 0 0;
+  img {
+    display: block;
+  }
+}
+

@@ -1,0 +1,135 @@
+/*--------------------------------------------------------------
+13.6 Footer
+--------------------------------------------------------------*/
+.site-footer {
+  margin-top: 6rem;
+  background-color: #ddd;
+  background-color: $graydarker;
+}
+
+.site-footer .wrap {
+  padding: 0;
+  max-width: 100%;
+}
+
+.site-footer .widget-area {
+  padding: 0;
+}
+
+/* Site info */
+.site-info {
+  font-size: 14px;
+  font-size: .875rem;
+  padding: 1rem 0 1.2rem 0;
+  text-align: center;
+  width: 100%;
+}
+
+.site-info a {
+  color: #ddd;
+}
+
+.site-info .sep {
+  margin: 0;
+  display: block;
+  visibility: hidden;
+  height: 0;
+  width: 100%;
+}
+
+
+// BLOCKS
+
+
+.footer-widget-1,
+.footer-widget-2 {
+  color: #ddd;
+  text-align: center;
+}
+
+.footer-widget-1 .widget:first-child {
+  background: $green;
+}
+.footer-widget-1 .widget:nth-child(2) {
+  background: $blue;
+}
+
+
+.footer-widget-1,
+.footer-widget-2 {
+
+  .widget {
+    padding: 3rem;
+    font-size: 1.2rem;
+  }
+
+  h2.widget-title {
+    color: #fff;
+    font-size: 1.6rem;
+    letter-spacing: .15rem;
+    text-transform: uppercase;
+  }
+
+  h2.widget-title:after {
+    background: rgba(255,255,255,1);
+    content: "";
+    display: block;
+    height: 2px;
+    margin: 1.4rem auto 1.2rem;
+    width: 6.5rem;
+  }
+
+  *:last-child {
+    margin-bottom: 0;
+  }
+}
+
+
+
+.footer-widget-1 .widget a,
+.footer-widget-2 .widget a {
+  color: #fff;
+}
+
+
+
+/* SOCIAL NAVIGATION */
+
+.social-navigation {
+  font-size: 16px;
+  font-size: 1rem;
+  margin-bottom: 1em;
+}
+
+.social-navigation ul {
+  list-style: none;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+
+.social-navigation li {
+  display: inline;
+}
+
+.social-navigation a {
+  background-color: #767676;
+  -webkit-border-radius: 40px;
+  border-radius: 40px;
+  color: #fff;
+  display: inline-block;
+  height: 40px;
+  margin: 0 1em .5em 0;
+  text-align: center;
+  width: 40px;
+}
+
+.social-navigation a:hover, .social-navigation a:focus {
+  background-color: #333;
+}
+
+.social-navigation .icon {
+  height: 16px;
+  top: 12px;
+  width: 16px;
+  vertical-align: top;
+}

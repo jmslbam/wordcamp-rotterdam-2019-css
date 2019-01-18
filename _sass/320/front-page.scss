@@ -1,0 +1,70 @@
+
+/*--------------------------------------------------------------
+13.2 Front Page
+--------------------------------------------------------------*/
+.twentyseventeen-front-page .site-content {
+  padding: 0;
+}
+
+
+
+.twentyseventeen-panel {
+
+  margin:0 auto;
+  position: relative;
+}
+
+.twentyseventeen-panel h1,
+.twentyseventeen-panel h2 {
+  text-align: center;
+
+}
+.twentyseventeen-panel h1 {
+  letter-spacing: .14em;
+}
+
+.panel-content {
+  position: relative;
+}
+
+.panel-content .wrap {
+  //padding-bottom: .5em;
+  padding-top: 1.75em;
+}
+
+
+/* Frontpage mods */
+.home {
+  .site-main h2 {
+    //color: #3d3d3c;
+    letter-spacing: .05em;
+  }
+  // disable the page header on home, if you want to add a header, do this in the_content
+  .twentyseventeen-panel .wrap > .entry-header {
+    display: none;
+  }
+
+  .panel-content .recent-posts article {
+    margin-bottom: 4em;
+  }
+}
+
+
+
+/* Panel edit link */
+.twentyseventeen-panel .edit-link {
+  display: block;
+  margin: .3em 0 0;
+}
+
+.twentyseventeen-panel .entry-header .edit-link {
+  font-size: 14px;
+  font-size: .875rem;
+}
+
+
+// ROWS
+.row-full-width {
+  margin-left: -2rem;
+  margin-right: -2rem;
+}

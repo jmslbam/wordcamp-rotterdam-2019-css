@@ -1,0 +1,180 @@
+/*--------------------------------------------------------------
+6.0 Forms
+--------------------------------------------------------------*/
+label {
+  color: #333;
+  display: block;
+  font-weight: 800;
+  margin-bottom: .5em;
+}
+
+fieldset {
+  margin-bottom: 1em;
+}
+
+input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="number"], input[type="tel"], input[type="range"], input[type="date"], input[type="month"], input[type="week"], input[type="time"], input[type="datetime"], input[type="datetime-local"], input[type="color"] {
+  color: #666;
+  background: #fff;
+  background-image: -webkit-linear-gradient(rgba(255,255,255,0),rgba(255,255,255,0));
+  border: 1px solid #bbb;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  display: block;
+  padding: .7em;
+  width: 100%;
+}
+
+textarea {
+  color: #666;
+  background: #fff;
+  background-image: -webkit-linear-gradient(rgba(255,255,255,0),rgba(255,255,255,0));
+  border: 1px solid #bbb;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  display: block;
+  padding: .7em;
+  width: 100%;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="number"]:focus, input[type="tel"]:focus, input[type="range"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="week"]:focus, input[type="time"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="color"]:focus {
+  color: #222;
+  border-color: #333;
+}
+
+textarea:focus {
+  color: #222;
+  border-color: #333;
+}
+
+select {
+  border: 1px solid #bbb;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  height: 3em;
+  max-width: 100%;
+}
+
+input[type="radio"], input[type="checkbox"] {
+  margin-right: .5em;
+}
+
+input[type="radio"] + label, input[type="checkbox"] + label {
+  font-weight: 400;
+}
+
+.button,
+a.button,
+button,
+input[type="button"],
+input[type="submit"],
+.tix-js form input[type="submit"] {
+  background-color: $btn-background;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-size: .875rem;
+  font-weight: 400;
+  line-height: 1;
+  padding: 1em 2em;
+
+  text-shadow: none;
+  text-transform: uppercase;
+  text-decoration: none !important;
+
+  transition: background .2s;
+  &:hover {
+    background: $btn-background-hover;
+  }
+}
+
+input + button {
+  padding: .75em 2em;
+}
+
+input + input[type="button"], input + input[type="submit"] {
+  padding: .75em 2em;
+}
+
+button.secondary {
+  background-color: #ddd;
+  color: #222;
+}
+
+input[type="reset"], input[type="button"].secondary, input[type="reset"].secondary, input[type="submit"].secondary {
+  background-color: #ddd;
+}
+
+button:hover, button:focus {
+  background: #c02942;
+}
+
+
+button.secondary:hover, button.secondary:focus {
+  background: #bbb;
+}
+
+input[type="reset"]:hover, input[type="reset"]:focus {
+  background: #bbb;
+}
+
+input[type="button"].secondary:hover, input[type="button"].secondary:focus {
+  background: #bbb;
+}
+
+input[type="reset"].secondary:hover, input[type="reset"].secondary:focus {
+  background: #bbb;
+}
+
+input[type="submit"].secondary:hover, input[type="submit"].secondary:focus {
+  background: #bbb;
+}
+
+
+
+/* Placeholder text color -- selectors need to be separate to work. */
+::-webkit-input-placeholder, :-moz-placeholder {
+  color: #333;
+  font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
+}
+
+::-moz-placeholder {
+  color: #333;
+  font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
+  opacity: 1;
+  /* Since FF19 lowers the opacity of the placeholder by default */
+}
+
+:-ms-input-placeholder {
+  color: #333;
+  font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
+}
+
+/*Contact Form*/
+
+
+.contact-submit,
+.form-submit {
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+}
+
+
+.contact-form textarea,
+.contact-form input[type="text"],
+.contact-form input[type="email"] {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+.contact-submit input[type="submit"],
+.form-submit input[type="submit"] {
+  position: relative;
+  z-index: 1;
+  font-weight: normal;
+}
+

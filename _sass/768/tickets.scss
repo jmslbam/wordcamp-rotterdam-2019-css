@@ -1,0 +1,16 @@
+div#tix-attendees ul {
+  display: flex;
+  flex-wrap: wrap;
+  li {
+    flex-basis: 45%;
+    width: 45%;
+    //text-align: center;
+  }
+
+  li:nth-child( even ) {
+    margin-left: 2%;
+  }
+  li:nth-child( odd ) {
+    margin-right: 2%;
+  }
+}
