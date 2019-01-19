@@ -1,0 +1,27 @@
+{
+    "version": "0.3.0",
+    "paths": {
+        "source": "../source/",
+        "dist": "../dist/"
+    },
+    "resources":[
+      {
+        "type": "css",
+        "name": "style.css",
+        "globs": ["../source/styles/main.scss"]
+      },
+      {
+        "type": "fonts",
+        "name": "fonts",
+        "globs": ["../source/fonts/**/*"]
+      },
+      {
+        "type": "images",
+        "name": "images",
+        "globs": ["../source/images/**/*"]
+      }
+    ],
+    "config": {
+        "browsersyncUrl": "http://2018.rotterdam.wordcamp.dev"
+    }
+}
