@@ -1,0 +1,41 @@
+{
+  "name": "wordcamp-rotterdam-theme",
+  "version": "0.1.0",
+  "author": "WordCamp Rotterdam 2018",
+  "homepage": "http://2018.rotterdam.wordcamp.org",
+  "licenses": [
+    {
+      "type": "GPLv3"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.12.0",
+    "npm": ">=2.1.5"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-changed": "^1.2.1",
+    "gulp-clean-css": "^3.9.0",
+    "gulp-concat": "^2.5.2",
+    "gulp-flatten": "0.0.4",
+    "gulp-if": "^1.2.5",
+    "gulp-jshint": "^1.9.4",
+    "gulp-less": "^3.0.2",
+    "gulp-plumber": "^1.0.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-rev": "^3.0.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^1.5.1",
+    "gulp-uglify": "^1.1.0",
+    "jshint-stylish": "^1.0.1",
+    "lazypipe": "^0.2.2",
+    "merge-stream": "^0.1.7",
+    "minimist": "^1.1.1",
+    "node-sass": "^4.11.0",
+    "run-sequence": "^1.0.2",
+    "traverse": "^0.6.6"
+  }
+}
