@@ -89,7 +89,7 @@ var cssTasks = function(filename) {
       return gulpif(enabled.maps, sourcemaps.init());
     })
     .pipe(function() {
-      return gulpif('*.scss', sass());
+      return gulpif('*.scss', sass( { outputStyle: 'expanded' } ));
       //return gulpif('*.less', less());
     })
     .pipe(concat, filename)
@@ -102,9 +102,9 @@ var cssTasks = function(filename) {
         'opera 12'
       ]
     })
-    .pipe(cleanCSS, {
-      debug: true
-    })
+    // .pipe(cleanCSS, {
+    //   debug: true
+    // })
     .pipe(function() {
       return gulpif(enabled.maps, sourcemaps.write('.'));
     })();
