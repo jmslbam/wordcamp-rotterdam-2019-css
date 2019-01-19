@@ -1,0 +1,14 @@
+.jetpack_subscription_widget form {
+    flex-direction: column;
+}
+
+.jetpack_subscription_widget #subscribe-email {
+    width: auto;
+}
+.jetpack_subscription_widget #subscribe-submit {
+    width: auto;
+}
+
+#subscribe-submit {
+    flex: 2;
+}
