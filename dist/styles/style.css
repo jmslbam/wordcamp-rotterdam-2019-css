@@ -4071,6 +4071,7 @@ embed, iframe, object {
 
 .jetpack_subscription_widget #subscribe-email {
   width: auto;
+  padding-left: 0;
 }
 
 .jetpack_subscription_widget #subscribe-submit {
