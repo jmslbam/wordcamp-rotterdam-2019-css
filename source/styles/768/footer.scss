@@ -21,6 +21,12 @@
 
 .footer-block {
   display: block;
+  a {
+    text-decoration: none;
+  }
+  a:focus, a:hover {
+    text-decoration: underline;
+  }
 }
 
 .site-footer .widget-column.footer-widget-1 h2.widget-title {
