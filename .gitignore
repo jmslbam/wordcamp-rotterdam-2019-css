@@ -3,3 +3,5 @@ _site
 Gemfile.lock
 node_modules
 .vscode
+dist/styles/style.css
+dist/styles/style.css.map
