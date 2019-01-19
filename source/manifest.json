@@ -22,6 +22,6 @@
       }
     ],
     "config": {
-        "browsersyncUrl": "http://2018.rotterdam.wordcamp.dev"
+        "browsersyncUrl": "http://rotterdam.wordcamp.test"
     }
 }
