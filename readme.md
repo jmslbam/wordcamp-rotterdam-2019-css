@@ -1,6 +1,8 @@
-# wordcamp-rotterdam-2018-css
+# wordcamp-rotterdam-2019-css
 
 ## Parsing Less
+
+We are parsing the LESS to `dist/styles/style.css` so load that file via Remote CSS.
 
 ### Via Gulp
 
@@ -9,6 +11,7 @@
 
 ### Via an App
 Or just use your favourite LESS parser App like http://koala-app.com or https://codekitapp.com/ (trail = 30 days)
+
 
 ## HTML elements
 These are custom build HTML blocks that you have to enter into the WYSIWYG editor.
