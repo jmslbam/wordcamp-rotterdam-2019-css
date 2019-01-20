@@ -1,5 +1,3 @@
-
-
 /*--------------------------------------------------------------
 10.0 Links
 --------------------------------------------------------------*/
@@ -14,180 +12,22 @@ a:hover, a:active {
   text-decoration: underline;
 }
 
-.entry-title a,
-.entry-meta a {
-  //text-decoration: none;
-}
-
-.page-links a {
-  //text-decoration: none;
-}
-
-.page-links a .page-number {
-  //text-decoration: none;
-}
-
-.entry-footer a, .entry-footer .cat-links a, .entry-footer .tags-links a {
-  //text-decoration: none;
-}
-
 .edit-link {
   display: none;
 }
 
-.edit-link a,
-.post-navigation a,
-.logged-in-as a,
-.comment-navigation a {
-  //text-decoration: none;
-}
-
 .comment-metadata a {
   -webkit-box-shadow: inset 0 -1px 0 white;
-  //text-decoration: none;
 }
 
 .comment-metadata a.comment-edit-link {
   -webkit-box-shadow: inset 0 -1px 0 white;
-  //text-decoration: none;
-}
-
-.comment-reply-link,
-a .nav-title,
-.pagination a,
-.comments-pagination a,
-.site-info a {
-  //text-decoration: none;
-}
-
-.widget .widget-title a, .widget ul li a {
-  //text-decoration: none;
-}
-
-.site-footer .widget-area ul li a {
-  //text-decoration: none;
-}
-
-.entry-content a:focus, .entry-content a:hover {
-  color: $greydark;
-  //text-decoration: underline;
-}
-
-.entry-summary a:focus, .entry-summary a:hover {
-  //text-decoration: underline;
-}
-
-.widget a:focus, .widget a:hover {
-  //color: #000;
-  //text-decoration: underline;
-}
-
-.site-footer .widget-area a:focus, .site-footer .widget-area a:hover {
-  //color: #000;
-}
-
-.posts-navigation a:focus, .posts-navigation a:hover {
-  //color: #000;
-  //text-decoration: underline;
-}
-
-.comment-metadata a:focus, .comment-metadata a:hover {
-  //color: #000;
-  //text-decoration: underline;
-}
-
-.comment-metadata a.comment-edit-link:focus, .comment-metadata a.comment-edit-link:hover {
-  //color: #000;
-  //text-decoration: underline;
 }
 
 .comment-reply-link:focus, .comment-reply-link:hover {
   color: #000;
-  //text-decoration: underline;
-}
-
-.widget_authors a:focus strong, .widget_authors a:hover strong {
-  //color: #000;
-  //text-decoration: underline;
-}
-
-.entry-title a:focus, .entry-title a:hover {
-  //color: #000;
-  //text-decoration: underline;
-}
-
-.entry-meta a:focus, .entry-meta a:hover {
-  //color: #000;
-  //text-decoration: underline;
-}
-
-.page-links a:focus .page-number,
-.page-links a:hover .page-number {
-  //color: #000;
-  //text-decoration: underline;
-}
-
-.entry-footer a:focus, .entry-footer a:hover {
-  //color: #000;
-  //text-decoration: underline;
-}
-
-.entry-footer .cat-links a:focus, .entry-footer .cat-links a:hover {
-  //color: #000;
-  //text-decoration: underline;
-}
-
-.entry-footer .tags-links a:focus, .entry-footer .tags-links a:hover {
-  //color: #000;
-  //text-decoration: underline;
-}
-
-.post-navigation a:focus, .post-navigation a:hover {
-  //color: #000;
-  //text-decoration: underline;
 }
 
 .pagination a:not(.prev):not(.next):focus, .pagination a:not(.prev):not(.next):hover {
   color: #000;
-  //text-decoration: underline;
-}
-
-.comments-pagination a:not(.prev):not(.next):focus, .comments-pagination a:not(.prev):not(.next):hover {
-  //color: #000;
-  //text-decoration: underline;
-}
-
-.logged-in-as a:focus, .logged-in-as a:hover {
-  //color: #000;
-  //text-decoration: underline;
-}
-
-a:focus .nav-title,
-a:hover .nav-title {
-  //color: #000;
-  //text-decoration: underline;
-}
-
-.edit-link a:focus, .edit-link a:hover {
-  //color: #000;
-  //text-decoration: underline;
-}
-
-.site-info a:focus, .site-info a:hover {
-  //color: #000;
-  //text-decoration: underline;
-}
-
-.widget .widget-title a:focus, .widget .widget-title a:hover {
-  //color: #000;
-  //text-decoration: underline;
-}
-
-.widget ul li a:focus, .widget ul li a:hover {
-  //color: #000;
-  //text-decoration: underline;
-}
-
-.post-navigation a:focus .icon, .post-navigation a:hover .icon {
-  //color: #222;
 }
