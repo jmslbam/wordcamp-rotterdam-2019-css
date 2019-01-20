@@ -26,14 +26,14 @@
 .main-navigation li.menu-item-has-children .dropdown-toggle:after {
   content: '';
   display: inline-block;
-  right: 5px;
+  right: 25px;
   top: 18px;
   left: auto;
   position: absolute;
   overflow: hidden;
-  height: 6px;
+  height: .75em;
   font-size: 1em;
-  width: 6px;
+  width: .75em;
   text-align: center;
   -webkit-transform: rotate(45deg);
   /* Chrome, Safari, Opera */
