@@ -21,10 +21,8 @@
 
 .footer-block {
   display: block;
-  a {
-    text-decoration: none;
-  }
-  a:focus, a:hover {
+  text-decoration: none;
+  &:focus, &:hover {
     text-decoration: underline;
   }
 }
