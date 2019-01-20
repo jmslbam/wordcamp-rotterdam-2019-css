@@ -4868,7 +4868,7 @@ embed, iframe, object {
     left: 0;
     right: 0;
     width: 100%;
-    height: 50px;
+    height: 58px;
     z-index: 7;
   }
   .admin-bar .site-navigation-fixed.navigation-top {
@@ -5108,11 +5108,9 @@ embed, iframe, object {
   }
   .footer-block {
     display: block;
-  }
-  .footer-block a {
     text-decoration: none;
   }
-  .footer-block a:focus, .footer-block a:hover {
+  .footer-block:focus, .footer-block:hover {
     text-decoration: underline;
   }
   .site-footer .widget-column.footer-widget-1 h2.widget-title {
