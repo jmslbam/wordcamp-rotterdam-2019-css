@@ -1,9 +1,6 @@
 
 
 /* Posts */
-.site-content {
-  //padding: 5.5em 0 0;
-}
 
 .single-post .entry-title, .page .entry-title {
   font-size: 37px;
@@ -83,6 +80,10 @@ body.page-two-column:not(.archive) #primary .entry-content, body.page-two-column
 
 
 // Entry
+
+.entry-header {
+  text-align: center;
+}
 
 // Entry footer
 .entry-footer {
