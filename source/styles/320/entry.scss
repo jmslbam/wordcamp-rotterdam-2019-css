@@ -36,8 +36,8 @@
 }
 
 .entry-title a:hover {
-  text-decoration: none;
   color: $brand-secondary;
+  text-decoration: underline;
 }
 
 .entry-title:not(:first-child) {
@@ -56,6 +56,10 @@
 
 .entry-meta a {
   color: #767676;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 .byline, .updated:not(.published) {
@@ -143,14 +147,6 @@
 
 .entry-content {
   padding-bottom: 2em;
-}
-
-.entry-content h2 {
-  //margin: 1em 0 2em 0;
-}
-
-.entry-content p + h2 {
-  //margin: 50px 0 40px;
 }
 
 
