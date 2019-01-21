@@ -1,14 +1,77 @@
+.button,
+a.button,
+button,
+input[type="button"],
+input[type="submit"],
+.tix-js form input[type="submit"] {
+  background-color: $btn-background;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-size: .875rem;
+  font-weight: 400;
+  line-height: 1;
+  padding: 1em 2em;
+
+  text-shadow: none;
+  text-decoration: none !important;
+
+  transition: background .2s;
+  &:hover {
+    background: $btn-background-hover;
+  }
+}
+
+input + button {
+  padding: .75em 2em;
+}
+
+input + input[type="button"], input + input[type="submit"] {
+  padding: .75em 2em;
+}
+
+button.secondary {
+  background-color: #ddd;
+  color: #222;
+}
+
+input[type="reset"], input[type="button"].secondary, input[type="reset"].secondary, input[type="submit"].secondary {
+  background-color: #ddd;
+}
+
+button:hover, button:focus {
+  background: #c02942;
+}
+
+
+button.secondary:hover, button.secondary:focus {
+  background: #bbb;
+}
+
+input[type="reset"]:hover, input[type="reset"]:focus {
+  background: #bbb;
+}
+
+input[type="button"].secondary:hover, input[type="button"].secondary:focus {
+  background: #bbb;
+}
+
+input[type="reset"].secondary:hover, input[type="reset"].secondary:focus {
+  background: #bbb;
+}
+
+input[type="submit"].secondary:hover, input[type="submit"].secondary:focus {
+  background: #bbb;
+}
 
 
 a.button {
-  display: inline-block;
   padding: 7px 25px;
-  text-decoration: none;
-  color: #fff;
-  background: $brand-secondary;
-  text-transform: uppercase;
   transition: all .3s ease 0;
-  font-size: 1rem;
   position: relative;
   overflow: hidden;
 }
