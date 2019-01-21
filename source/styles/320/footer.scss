@@ -63,14 +63,13 @@
     font-size: 1.2rem;
   }
 
-  h2.widget-title {
+  .widget-title {
     color: #fff;
-    font-size: 1.6rem;
+    font-size: 2.3rem;
     letter-spacing: .15rem;
-    text-transform: uppercase;
   }
 
-  h2.widget-title:after {
+  .widget-title:after {
     background: rgba(255,255,255,1);
     content: "";
     display: block;
@@ -89,6 +88,14 @@
 .footer-widget-1 .widget a,
 .footer-widget-2 .widget a {
   color: #fff;
+}
+
+.footer-block {
+  display: block;
+  text-decoration: none;
+  &:focus, &:hover {
+    text-decoration: underline;
+  }
 }
 
 
