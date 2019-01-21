@@ -5,7 +5,7 @@ input[type="button"],
 input[type="submit"],
 .tix-js form input[type="submit"] {
   background-color: $btn-background;
-  border: 0;
+  border: 1px solid $btn-background;
   border-radius: 0;
   box-shadow: none;
   color: #fff;
@@ -23,6 +23,7 @@ input[type="submit"],
   transition: background .2s;
   &:hover {
     background: $btn-background-hover;
+    border-color: #fff;
   }
 }
 
