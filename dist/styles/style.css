@@ -1556,7 +1556,7 @@ a.button {
   padding: 7px 25px;
   text-decoration: none;
   color: #fff;
-  background: #f48109;
+  background: #085D8F;
   text-transform: uppercase;
   -webkit-transition: all .3s ease 0;
   -o-transition: all .3s ease 0;
@@ -1862,7 +1862,11 @@ body:not(.has-header-image):not(.has-header-video) .custom-header-media {
   text-decoration: none;
 }
 
-.main-navigation li:hover > a {
+.main-navigation a:hover,
+.main-navigation a:focus,
+.main-navigation a:active,
+.main-navigation li:hover > a,
+.main-navigation li:focus > a {
   color: #fff;
   background: #4e4e4e;
   text-decoration: underline;
@@ -1873,6 +1877,7 @@ body:not(.has-header-image):not(.has-header-video) .custom-header-media {
 .main-navigation .current-menu-parent > a,
 .main-navigation .current_page_parent > a {
   color: #fff;
+  background: #18683C;
 }
 
 .main-navigation {
@@ -1949,13 +1954,7 @@ body:not(.has-header-image):not(.has-header-video) .custom-header-media {
   display: block;
 }
 
-.menu-toggle:hover {
-  background: transparent;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  color: #fff;
-}
-
+.menu-toggle:hover,
 .menu-toggle:focus {
   background: transparent;
   -webkit-box-shadow: none;
@@ -2029,9 +2028,13 @@ a {
   text-decoration: underline;
 }
 
-a:hover, a:active {
+a:hover, a:active, a:focus {
   color: #085D8F;
   text-decoration: underline;
+}
+
+a:focus {
+  outline: 1;
 }
 
 .edit-link {
@@ -2141,6 +2144,7 @@ a:hover, a:active {
 .entry-title {
   color: #464646;
   letter-spacing: .05em;
+  font-weight: 300;
 }
 
 .entry-title a {
@@ -2149,8 +2153,8 @@ a:hover, a:active {
 }
 
 .entry-title a:hover {
-  text-decoration: none;
-  color: #f48109;
+  color: #085D8F;
+  text-decoration: underline;
 }
 
 .entry-title:not(:first-child) {
@@ -2169,6 +2173,11 @@ a:hover, a:active {
 
 .entry-meta a {
   color: #767676;
+  text-decoration: none;
+}
+
+.entry-meta a:hover {
+  text-decoration: underline;
 }
 
 .byline, .updated:not(.published) {
@@ -2919,7 +2928,7 @@ div .tix-info {
 
 .tix-js td.tix-column-remaining {
   text-align: center;
-  color: #f48109;
+  color: #085D8F;
 }
 
 div#tix-attendees ul li,
@@ -3131,13 +3140,12 @@ div#tix-attendees .avatar {
   padding-bottom: 3em;
 }
 
-h2.widget-title {
+.widget-title {
   color: #222;
   font-size: 13px;
   font-size: .8125rem;
   letter-spacing: .05em;
   margin-bottom: 1.1em;
-  text-transform: uppercase;
 }
 
 .widget-title a {
@@ -3427,7 +3435,6 @@ h2.widget-title {
   text-decoration: none;
   border: none;
   color: #fff;
-  outline: none !important;
   box-shadow: none !important;
   -webkit-box-shadow: none !important;
   -webkit-transition: none;
@@ -3800,16 +3807,15 @@ embed, iframe, object {
   font-size: 1.2rem;
 }
 
-.footer-widget-1 h2.widget-title,
-.footer-widget-2 h2.widget-title {
+.footer-widget-1 .widget-title,
+.footer-widget-2 .widget-title {
   color: #fff;
-  font-size: 1.6rem;
+  font-size: 2.1rem;
   letter-spacing: .15rem;
-  text-transform: uppercase;
 }
 
-.footer-widget-1 h2.widget-title:after,
-.footer-widget-2 h2.widget-title:after {
+.footer-widget-1 .widget-title:after,
+.footer-widget-2 .widget-title:after {
   background: white;
   content: "";
   display: block;
@@ -3826,6 +3832,15 @@ embed, iframe, object {
 .footer-widget-1 .widget a,
 .footer-widget-2 .widget a {
   color: #fff;
+}
+
+.footer-block {
+  display: block;
+  text-decoration: none;
+}
+
+.footer-block:focus, .footer-block:hover {
+  text-decoration: underline;
 }
 
 /* SOCIAL NAVIGATION */
@@ -4022,7 +4037,6 @@ embed, iframe, object {
     right: 0;
     height: 45px;
     width: 100%;
-    outline: none;
   }
   .main-navigation li.menu-item-has-children .dropdown-toggle:after {
     content: '';
@@ -4352,9 +4366,6 @@ embed, iframe, object {
     font-size: .8125rem;
   }
   /* Posts */
-  .site-content {
-    padding: 5.5em 0 0;
-  }
   .single-post .entry-title, .page .entry-title {
     font-size: 37px;
   }
@@ -5096,17 +5107,6 @@ embed, iframe, object {
   .footer-widget-1 .widget {
     width: 40%;
     margin: -4rem 0 0 0;
-  }
-  .footer-block {
-    display: block;
-    text-decoration: none;
-  }
-  .footer-block:focus, .footer-block:hover {
-    text-decoration: underline;
-  }
-  .site-footer .widget-column.footer-widget-1 h2.widget-title {
-    font-size: 26px;
-    font-size: 1.5rem;
   }
   .site-footer .widget-column.footer-widget-2 {
     float: right;
