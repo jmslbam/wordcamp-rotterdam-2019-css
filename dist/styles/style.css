@@ -1478,7 +1478,7 @@ input[type="button"],
 input[type="submit"],
 .tix-js form input[type="submit"] {
   background-color: #085D8F;
-  border: 0;
+  border: 1px solid #085D8F;
   border-radius: 0;
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -1504,6 +1504,7 @@ input[type="button"]:hover,
 input[type="submit"]:hover,
 .tix-js form input[type="submit"]:hover {
   background: #042e47;
+  border-color: #fff;
 }
 
 input + button {
