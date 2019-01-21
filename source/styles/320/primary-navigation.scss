@@ -28,8 +28,11 @@
   display: block;
   text-decoration: none;
 }
-
-.main-navigation li:hover > a {
+.main-navigation a:hover,
+.main-navigation a:focus,
+.main-navigation a:active,
+.main-navigation li:hover > a,
+.main-navigation li:focus > a {
   color: #fff;
   background: #4e4e4e;
   text-decoration: underline;
@@ -41,6 +44,7 @@
 .main-navigation .current-menu-parent > a,
 .main-navigation .current_page_parent > a {
   color: #fff;
+  background: $greendark;
 }
 
 .main-navigation {
@@ -125,13 +129,7 @@
   display: block;
 }
 
-.menu-toggle:hover {
-  background: transparent; //overwrite default button styling
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  color: #fff;
-}
-
+.menu-toggle:hover,
 .menu-toggle:focus {
   background: transparent; //overwrite default button styling
   -webkit-box-shadow: none;

@@ -48,10 +48,6 @@ a {
   -webkit-text-decoration-skip: objects;
 }
 
-a:active, a:hover {
-  outline-width: 0;
-}
-
 abbr[title] {
   border-bottom: 1px #767676 dotted;
   text-decoration: none;

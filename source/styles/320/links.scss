@@ -6,10 +6,12 @@ a {
   text-decoration: underline;
 }
 
-a:hover, a:active {
+a:hover, a:active, a:focus {
   color: $blue;
-  //outline: 0;
   text-decoration: underline;
+}
+a:focus {
+  outline: 1;
 }
 
 .edit-link {
