@@ -22,10 +22,10 @@ These are custom build HTML blocks that you have to enter into the WYSIWYG edito
 ```
 <div class="row-full-width row-tickets">
     <div class="container-inner">
-        <h2>Haal <a href="/tickets">hier</a> je ticket!</h2>
+        <h2><a href="/tickets">Haal hier je ticket!</a></h2>
         <hr />
-        <h2>Get your ticket <a href="/tickets">here!</a></h2>
-        <a href="/tickets"><img class="tickets aligncenter wp-image-347 size-medium" src="tickets-liggend-small-300x225.png" alt="" width="300" height="225" /></a>
+        <h2><a href="/tickets">Get your ticket here!</a></h2>
+        <a href="/tickets"><img class="tickets aligncenter wp-image-347 size-medium" src="tickets-liggend-small-300x225.png" alt="" width="300" height="225" alt="Haal hier je ticket." /></a>
     </div>
 </div>
 ```
