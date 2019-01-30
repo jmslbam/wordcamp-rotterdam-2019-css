@@ -2083,7 +2083,7 @@ a:focus {
 }
 
 .home .twentyseventeen-panel .wrap > .entry-header {
-  display: none;
+  /*display: none;*/
 }
 
 .home .panel-content .recent-posts article {
@@ -2153,12 +2153,10 @@ a:focus {
 
 .entry-meta {
   color: #767676;
-  font-size: 11px;
-  font-size: .6875rem;
+  font-size: 14px;
+  font-size: .8875rem;
   font-weight: 800;
-  letter-spacing: .1818em;
   padding-bottom: .25em;
-  text-transform: uppercase;
 }
 
 .entry-meta a {
