@@ -3468,10 +3468,10 @@ div#tix-attendees .avatar {
 }
 
 .jetpack_subscription_widget #subscribe-email {
-  float: left;
-  width: 60%;
+/*   float: left;
+  width: 60%; */
   margin: 0;
-  padding-left: 15px;
+/*   padding-left: 15px; */
 }
 
 .jetpack_subscription_widget #subscribe-email input {
@@ -3486,13 +3486,13 @@ div#tix-attendees .avatar {
 }
 
 .jetpack_subscription_widget #subscribe-submit {
-  float: left;
-  width: 35%;
+/*   float: left;
+  width: 35%; */
   height: 50px;
   margin: 0;
   position: relative;
   overflow: hidden;
-  background: #006f99;
+/*   background: #006f99; */
 }
 
 .jetpack_subscription_widget #subscribe-submit:after {
@@ -3521,14 +3521,14 @@ div#tix-attendees .avatar {
 }
 
 .jetpack_subscription_widget #subscribe-submit input {
-  padding: .7em 0;
   width: 100%;
   font-size: 16px;
   font-size: 1.2rem;
   height: 50px;
   position: relative;
   z-index: 1;
-  background: transparent;
+  background: #242424;
+  border-color: #242424;
 }
 
 .jetpack_subscription_widget #subscribe-submit input:hover {
