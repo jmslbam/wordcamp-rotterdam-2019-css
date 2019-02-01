@@ -4759,8 +4759,6 @@ embed, iframe, object {
   /* Navigation */
   .navigation-top {
     bottom: 0;
-    font-size: 14px;
-    font-size: .975rem;
     left: 0;
     position: absolute;
     right: 0;
