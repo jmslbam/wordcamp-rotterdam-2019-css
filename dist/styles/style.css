@@ -1649,7 +1649,7 @@ body.has-header-image .site-title, body.has-header-video .site-title, body.has-h
   font-size: 1.1rem;
   margin-bottom: 0;
   display: block;
-  color: #009D4e !important;
+  color: #18883C !important;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -1821,7 +1821,7 @@ body:not(.has-header-image):not(.has-header-video) .custom-header-media {
 12.0 Navigation
 --------------------------------------------------------------*/
 .navigation-top {
-  background: #009D4e;
+  background: #18883C;
   font-size: 16px;
   font-size: 1rem;
   position: relative;
@@ -1869,6 +1869,7 @@ body:not(.has-header-image):not(.has-header-video) .custom-header-media {
 .main-navigation .current_page_parent > a {
   color: #fff;
   background: #18683C;
+  font-weight: 700;
 }
 
 .main-navigation {
@@ -2021,11 +2022,7 @@ a {
 
 a:hover, a:active, a:focus {
   color: #085D8F;
-  text-decoration: underline;
-}
-
-a:focus {
-  outline: 1;
+  text-decoration: none;
 }
 
 .edit-link {
@@ -2078,27 +2075,27 @@ a:focus {
 }
 
 /* Frontpage mods */
+.home {
+  /* Hide first "home" panel title */
+}
+
 .home .site-main h2 {
   letter-spacing: .05em;
   margin: 0;
   padding: 0;
 }
+
 .home .entry-header {
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
 
-.home .twentyseventeen-panel .wrap > .entry-header {
-  /*display: none;*/
+.home .post-157 .entry-title {
+  display: none;
 }
 
 .home .panel-content .recent-posts article {
   margin-bottom: 4em;
-}
-
-/* Hide first "home" panel title */
-.home .post-157 .entry-title {
-  display: none;
 }
 
 /* Panel edit link */
@@ -2167,7 +2164,9 @@ a:focus {
   font-size: 14px;
   font-size: .8875rem;
   font-weight: 800;
+  letter-spacing: .1818em;
   padding-bottom: .25em;
+  text-transform: uppercase;
 }
 
 .entry-meta a {
@@ -3468,10 +3467,7 @@ div#tix-attendees .avatar {
 }
 
 .jetpack_subscription_widget #subscribe-email {
-/*   float: left;
-  width: 60%; */
   margin: 0;
-/*   padding-left: 15px; */
 }
 
 .jetpack_subscription_widget #subscribe-email input {
@@ -3486,13 +3482,10 @@ div#tix-attendees .avatar {
 }
 
 .jetpack_subscription_widget #subscribe-submit {
-/*   float: left;
-  width: 35%; */
   height: 50px;
   margin: 0;
   position: relative;
   overflow: hidden;
-/*   background: #006f99; */
 }
 
 .jetpack_subscription_widget #subscribe-submit:after {
@@ -3521,6 +3514,7 @@ div#tix-attendees .avatar {
 }
 
 .jetpack_subscription_widget #subscribe-submit input {
+  padding: .7em 0;
   width: 100%;
   font-size: 16px;
   font-size: 1.2rem;
@@ -4577,47 +4571,17 @@ embed, iframe, object {
   .navigation-top nav {
     margin-left: -1.25em;
   }
-  .navigation-top .ticket-label {
-    float: right;
+  .main-navigation .ticket-label {
     background: #c02942;
-    overflow: hidden;
   }
-  .navigation-top .ticket-label a {
+  .main-navigation .ticket-label a {
     position: relative;
     z-index: 2;
   }
-  .navigation-top .ticket-label a:hover {
+  .main-navigation li.ticket-label.current-menu-item a {
     color: #fff;
-  }
-  .navigation-top .ticket-label.current-menu-item a {
-    color: #fff;
-  }
-  .navigation-top .ticket-label:after {
-    display: block;
-    content: '';
-    -ms-transform: rotate(45deg);
-    /* IE 9 */
-    -webkit-transform: rotate(45deg);
-    /* Chrome, Safari, Opera */
-    -o-transform: rotate(45deg);
-       transform: rotate(45deg);
-    top: 100%;
-    width: 1000px;
-    height: 1000px;
-    position: absolute;
-    left: 20%;
-    background: #fff;
-    opacity: .2;
-    -webkit-transition: all .21s ease-in-out;
-    -o-transition: all .21s ease-in-out;
-    transition: all .21s ease-in-out;
-  }
-  .navigation-top .ticket-label:hover, .navigation-top .ticket-label:active {
-    text-decoration: none !important;
-    text-shadow: none;
-  }
-  .navigation-top .ticket-label:hover:after, .navigation-top .ticket-label:active:after {
-    top: -850%;
+    border: 1px solid #fff;
+    background: #8f182c;
   }
   /* Main Navigation */
   .js .menu-toggle, .js .dropdown-toggle {
@@ -4639,7 +4603,6 @@ embed, iframe, object {
     text-align: center;
   }
   .main-navigation ul {
-    background: #009D4e;
     padding: 0;
   }
   .main-navigation > div > ul {
@@ -4692,7 +4655,6 @@ embed, iframe, object {
     padding: 0.2em 1.25em;
   }
   .main-navigation ul ul {
-    background: #dce0e0;
     left: -999em;
     padding: 0;
     position: absolute;
@@ -4719,15 +4681,6 @@ embed, iframe, object {
     -webkit-transition: color .3s ease-in-out;
     -o-transition: color .3s ease-in-out;
     transition: color .3s ease-in-out;
-  }
-  .main-navigation li li.focus > a, .main-navigation li li:focus > a, .main-navigation li li:hover > a {
-    color: #fff;
-  }
-  .main-navigation li li a:hover, .main-navigation li li a:focus {
-    color: #fff;
-  }
-  .main-navigation li li.current_page_item a:hover, .main-navigation li li.current-menu-item a:hover, .main-navigation li li.current_page_item a:focus, .main-navigation li li.current-menu-item a:focus {
-    color: #fff;
   }
   .main-navigation ul li:hover > ul,
   .main-navigation ul li.focus > ul {
@@ -4822,48 +4775,6 @@ embed, iframe, object {
   .navigation-top nav {
     margin-left: -1.25em;
   }
-  .navigation-top .ticket-label {
-    float: right;
-    background: #c02942;
-    overflow: hidden;
-  }
-  .navigation-top .ticket-label a {
-    position: relative;
-    z-index: 2;
-  }
-  .navigation-top .ticket-label a:hover {
-    color: #fff;
-  }
-  .navigation-top .ticket-label.current-menu-item a {
-    color: #fff;
-  }
-  .navigation-top .ticket-label:after {
-    display: block;
-    content: '';
-    -ms-transform: rotate(45deg);
-    /* IE 9 */
-    -webkit-transform: rotate(45deg);
-    /* Chrome, Safari, Opera */
-    -o-transform: rotate(45deg);
-       transform: rotate(45deg);
-    top: 100%;
-    width: 1000px;
-    height: 1000px;
-    position: absolute;
-    left: 20%;
-    background: #fff;
-    opacity: .2;
-    -webkit-transition: all .21s ease-in-out;
-    -o-transition: all .21s ease-in-out;
-    transition: all .21s ease-in-out;
-  }
-  .navigation-top .ticket-label:hover, .navigation-top .ticket-label:active {
-    text-decoration: none !important;
-    text-shadow: none;
-  }
-  .navigation-top .ticket-label:hover:after, .navigation-top .ticket-label:active:after {
-    top: -850%;
-  }
   .site-navigation-fixed.navigation-top {
     top: 0;
     position: fixed;
@@ -4893,7 +4804,6 @@ embed, iframe, object {
     display: inline-block;
   }
   .main-navigation ul {
-    background: #009D4e;
     padding: 0;
   }
   .main-navigation > div > ul {
@@ -4904,6 +4814,9 @@ embed, iframe, object {
   .main-navigation li {
     border: 0;
     display: inline-block;
+  }
+  .main-navigation > li {
+    margin: 0 3px;
   }
   .main-navigation li.menu-item-has-children > a:after {
     content: '';
@@ -4944,7 +4857,6 @@ embed, iframe, object {
     display: block;
   }
   .main-navigation ul ul {
-    background: #dce0e0;
     left: -999em;
     padding: 0;
     position: absolute;
@@ -4971,15 +4883,6 @@ embed, iframe, object {
     -webkit-transition: color .3s ease-in-out;
     -o-transition: color .3s ease-in-out;
     transition: color .3s ease-in-out;
-  }
-  .main-navigation li li.focus > a, .main-navigation li li:focus > a, .main-navigation li li:hover > a {
-    color: #fff;
-  }
-  .main-navigation li li a:hover, .main-navigation li li a:focus {
-    color: #fff;
-  }
-  .main-navigation li li.current_page_item a:hover, .main-navigation li li.current-menu-item a:hover, .main-navigation li li.current_page_item a:focus, .main-navigation li li.current-menu-item a:focus {
-    color: #fff;
   }
   .main-navigation ul li:hover > ul,
   .main-navigation ul li.focus > ul {
@@ -5016,6 +4919,11 @@ embed, iframe, object {
   }
   .main-navigation ul ul li.page_item_has_children.focus:before, .main-navigation ul ul li.page_item_has_children:hover:before, .main-navigation ul ul li.page_item_has_children.focus:after, .main-navigation ul ul li.page_item_has_children:hover:after {
     display: none;
+  }
+  .main-navigation .sub-menu .current-menu-item > a,
+  .main-navigation .sub-menu .current_page_item > a {
+    border: none;
+    font-weight: 700;
   }
   .row-tickets .container-inner {
     padding-right: 330px;
