@@ -34,9 +34,21 @@
   .site-main h2 {
     //color: #3d3d3c;
     letter-spacing: .05em;
+    margin: 0;
+    padding: 0;
   }
+  .entry-header {
+    margin: 0;
+    padding: 0;
+  }
+  
   // disable the page header on home, if you want to add a header, do this in the_content
   .twentyseventeen-panel .wrap > .entry-header {
+    // display: none;
+  }
+
+  /* Hide first "home" panel title */
+  .post-157 .entry-title {
     display: none;
   }
 
