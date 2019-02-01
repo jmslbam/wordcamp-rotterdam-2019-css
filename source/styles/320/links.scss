@@ -8,10 +8,7 @@ a {
 
 a:hover, a:active, a:focus {
   color: $blue;
-  text-decoration: underline;
-}
-a:focus {
-  outline: 1;
+  text-decoration: none;
 }
 
 .edit-link {
