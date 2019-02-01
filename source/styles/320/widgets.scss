@@ -335,10 +335,10 @@
 }
 
 .jetpack_subscription_widget #subscribe-email {
-  float: left;
-  width: 60%;
   margin: 0;
-  padding-left: 15px;
+  // float: left;
+  // width: 60%;
+  // padding-left: 15px;
 }
 
 .jetpack_subscription_widget #subscribe-email input {
@@ -353,13 +353,12 @@
 }
 
 .jetpack_subscription_widget #subscribe-submit {
-  float: left;
-  width: 35%;
+  // float: left;
+  // width: 35%;
   height: 50px;
   margin: 0;
   position: relative;
   overflow: hidden;
-  background: #006f99;
 }
 
 .jetpack_subscription_widget #subscribe-submit:after {
@@ -395,7 +394,8 @@
   height: 50px;
   position: relative;
   z-index: 1;
-  background: transparent;
+  background: #242424;
+  border-color: #242424;
 }
 
 .jetpack_subscription_widget #subscribe-submit input:hover {
