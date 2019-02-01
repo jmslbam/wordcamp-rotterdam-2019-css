@@ -2,9 +2,9 @@
 12.0 Navigation
 --------------------------------------------------------------*/
 .navigation-top {
-  background: #009D4e;
-  font-size: 19px;
-  font-size: 1.1875rem;
+  background: #18883C;
+  font-size: 16px;
+  font-size: 1rem;
   position: relative;
 }
 
@@ -23,11 +23,12 @@
   -webkit-transition: color .2s;
   transition: color .2s;
   font-family: 'Montserrat', sans-serif !important;
-  font-weight: 700;
+  font-weight: 400;
   padding: .75em 2.05em;
   display: block;
   text-decoration: none;
 }
+
 .main-navigation a:hover,
 .main-navigation a:focus,
 .main-navigation a:active,
@@ -45,7 +46,9 @@
 .main-navigation .current_page_parent > a {
   color: #fff;
   background: $greendark;
+  font-weight: 700;
 }
+
 
 .main-navigation {
   clear: both;
@@ -90,22 +93,16 @@
 }
 
 .main-navigation ul ul a {
-  //background: #18683C;
   letter-spacing: 0;
   padding-left: 3em;
   padding-right: 3em;
   position: relative;
   text-transform: none;
-  //border-top: 1px dotted #f4f4f4;
 }
-
 
 .main-navigation li li, .main-navigation li:last-child {
   border: 0;
 }
-
-
-
 
 /* Menu toggle */
 .menu-toggle {
