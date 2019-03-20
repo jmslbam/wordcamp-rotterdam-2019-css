@@ -8,6 +8,16 @@ If it doesn't gets updated, then re-save the Remote CSS via https://2019.rotterd
 
 > I, Jaime, used the SCSS / Gulp while developing the initial styling because that sped-up the progres for me.
 
+# Manual 
+
+## Making a menu 
+Because the site uses the Twenty Seventeen theme you need duplicate a top-level menu-item in it's submenu. On mobile you can't click the top-most parent item, because it works as a toggle for the submenu.
+
+```
+Sponsors
+|_ Sponsors
+|_ Call for Sponsors
+```
 
 ## HTML elements
 These are custom build HTML blocks that you have to enter into the WYSIWYG editor.
