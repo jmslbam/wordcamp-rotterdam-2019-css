@@ -3808,6 +3808,7 @@ embed, iframe, object {
   color: #fff;
   font-size: 2.1rem;
   letter-spacing: .15rem;
+  overflow-wrap: normal;
 }
 
 .footer-widget-1 .widget-title:after,
